@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name:"view" content="initial-scale=1">
+  <meta name="description" content="Web Application for generating landscape drawing in vectorial">
+  <meta name="Author" content="westboy31">
+  <meta name="keywords" content="Landscape, Generator, SVG, vectorial, art">
+  <title>Landscape Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icons/icon.png">
+</head>
+
+<!-- Load scripts -->
+<script src="libraries/jszip.min.js" defer></script>
+<script src="libraries/saveSvgAsPng.js" defer></script>
+<script src="libraries/dragscroll.js" defer></script>
+<script src="libraries/iro.js" defer></script>
+<!-- <script src="Minified/LandscapeGenerator.min.js" defer></script> -->
+<script src="LandscapeGenerator.js" defer></script>
+<script src="LandscapeEdition.js" defer></script>
+<!-- Load scripts -->
+
+
+
+<body class="dragscroll">
+
+  <svg id="LandscapeGenerator">
+  </svg>
+
+  <button id="btn_generate" type="button" name="generate">Generate</button>
+  <button id="btn_export" type="button" name="export">Export</button>
+  <button type="button" name="Panel" id="btn_showPanelLeft" class="btn_showPanel">></button>
+  <button type="button" name="Panel" id="btn_showPanelRight" class="btn_showPanel"><</button>
+      <div class="panel" id="panel_scene">
+        <h2 class="titlePanel">Scene edition</h2>
+        <div class="objectContainer" id="objectContainerScene">
+        </div>
+      </div>
+
+      <div class="panel" id="panel_option">
+        <h2 class="titlePanel">Generation option</h2>
+        <div class="objectContainer" id="objectContainerOption">
+          <div class="option" id="header">
+            <span id="min">min</span>
+            <span>Value</span>
+            <span id="max">max</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="colorPicker">
+
+      </div>
+      <div id="menuExport" class="panel">
+        <div class="exportContainer">
+          <button class="btnsExport" id="copy">Copy</button>
+          <textarea spellcheck="false" id="SVGexport"></textarea>
+          <button id="exportPNG" class="btnsExport">Export PNG</button>
+          <button id="exportLayers" class="btnsExport">Export layers</button>
+        </div>
+        <button class="btnScenePanel">X</button>
+      </div>
+
+      <p id="instruction">Use wheel for scaling</p>
+</body>
+
+
+</html>
