@@ -1,7 +1,7 @@
 # Landscape Generator
-
+<p align="center">
 <img title="" src="icons/icon.png" alt="img" data-align="center" width="201">
-
+</p>
 ## About
 
 Landscape Generator is An open Source web application that generates landscape drawings randomly, then gives you the ability to edit it and export it as SVG or PNG.
@@ -58,9 +58,9 @@ then when you will generate again it will take the new values.
 ##### Game Development
 
 You can use the web application in the itch.io page:point_right: [ Landscape Generator itch.io](https://westboy.itch.io/landscape-generator) 
-
+<p align="center">
 <img title="" src="images/Demonstration.gif" alt="img" width="710">
-
+</p>
 exported images can be used as background for 2d games (platform, arcade...). If desired, they are generated in such a way that they can be used as vertically repeating textures (disable sun and sunshine).
 
 You can also export the whole scene as separate layers (useful for the parallax effect).
