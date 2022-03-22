@@ -1,6 +1,6 @@
 # Landscape Generator
 
-<img title="" src="file:///C:/Users/user/Desktop/Landscape%20Generator/icons/icon.png" alt="img" data-align="center" width="201">
+<img title="" src="icons/icon.png" alt="img" data-align="center" width="201">
 
 ## About
 
@@ -59,7 +59,7 @@ then when you will generate again it will take the new values.
 
 You can use the web application in the itch.io page:point_right: [ Landscape Generator itch.io](https://westboy.itch.io/landscape-generator) 
 
-<img title="" src="file:///C:/Users/user/Desktop/Landscape Generator/images/Demonstration.gif" alt="img" width="710">
+<img title="" src="images/Demonstration.gif" alt="img" width="710">
 
 exported images can be used as background for 2d games (platform, arcade...). If desired, they are generated in such a way that they can be used as vertically repeating textures (disable sun and sunshine).
 
@@ -122,7 +122,7 @@ LG.set({
 
 **Variables and their representation in the scene :**
 
-![img](C:\Users\user\Desktop\Landscape%20Generator\images\Doc%20Github.png)
+![img](images/Doc%20Github.png)
 
 ## Contribution
 
