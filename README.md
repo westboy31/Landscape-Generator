@@ -150,7 +150,7 @@ If you find the project interesting and useful I would be really grateful if you
 
 The *landscapeGenerator.js* has no dependencies, the web application uses some external libraries :
 
-- **[iro.js](https://github.com/jaames/iro.js)** for color picker0
+- **[iro.js](https://github.com/jaames/iro.js)** for color picker.
 
 - **[dragscroll.js](https://github.com/asvd/dragscroll)** for drag scroll. 
 
